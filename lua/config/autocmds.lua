@@ -27,7 +27,7 @@ autocmd("BufWinEnter", {
     -- needed if i did not set the branch up correctly
     vim.keymap.set(
       "n",
-      "<leader>t",
+      "<leader>gt",
       ":Git push -u origin ",
       { buffer = bufnr, remap = false, desc = "Se[t] upstream and push" }
     )
