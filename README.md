@@ -1,4 +1,10 @@
-# 💤 LazyVim
+# 💤 Personal neovim configuration
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Based on [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+
+Additional plugins:
+- fugitive
+- tmux
+- undotree
+- yaml-companion
