@@ -12,6 +12,15 @@ opt.scrolloff = 8
 opt.hlsearch = false
 opt.incsearch = true
 
+opt.backup = false
+opt.swapfile = false
 opt.isfname:append("@-@")
 
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+
+-- additional filetypes
+vim.filetype.add({
+  extension = {
+    templ = "templ",
+  },
+})
