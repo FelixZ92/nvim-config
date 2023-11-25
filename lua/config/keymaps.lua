@@ -42,6 +42,12 @@ vim.keymap.set(
 )
 
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "[G]it [S]tatus (fugitive)" })
+vim.keymap.set(
+  "n",
+  "<leader>ie",
+  "oif err != nil {<CR> return err<CR>}<Esc>",
+  { desc = "[I]nsert golang [E]rror snippet in next line" }
+)
 
 function _G.set_terminal_keymaps()
   local opts = { buffer = 0 }
